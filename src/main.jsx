@@ -6,10 +6,8 @@ import "./main.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename="/matchcraft.gg">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </StrictMode>
 );
-
-console.log("ROOT:", root);
